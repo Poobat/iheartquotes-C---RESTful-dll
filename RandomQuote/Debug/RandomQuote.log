@@ -1,0 +1,25 @@
+﻿Build started 3/30/2012 9:53:34 AM.
+     1>Project "D:\Made Myself a Folder on Their D Drive\DynamicLibrary\RandomQuote\RandomQuote.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RandomQuote.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D RANDOMQUOTE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /EHa /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /TP /analyze- /errorReport:prompt RandomQuoteFuncs.cpp /clr:nostdlib 
+         RandomQuoteFuncs.cpp
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Made Myself a Folder on Their D Drive\DynamicLibrary\Debug\RandomQuote.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RandomQuote.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Made Myself a Folder on Their D Drive\DynamicLibrary\Debug\RandomQuote.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 /DLL Debug\RandomQuoteFuncs.obj
+         "Debug\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+            Creating library D:\Made Myself a Folder on Their D Drive\DynamicLibrary\Debug\RandomQuote.lib and object D:\Made Myself a Folder on Their D Drive\DynamicLibrary\Debug\RandomQuote.exp
+         RandomQuote.vcxproj -> D:\Made Myself a Folder on Their D Drive\DynamicLibrary\Debug\RandomQuote.dll
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Made Myself a Folder on Their D Drive\DynamicLibrary\Debug\RandomQuote.dll;#2" /manifest Debug\RandomQuote.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\RandomQuote.unsuccessfulbuild".
+         Touching "Debug\RandomQuote.lastbuildstate".
+     1>Done Building Project "D:\Made Myself a Folder on Their D Drive\DynamicLibrary\RandomQuote\RandomQuote.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79
